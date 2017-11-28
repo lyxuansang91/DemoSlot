@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "dca33195-3245-4490-b256-1b580290d35c",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "btn_mokhoa": {
+      "ver": "1.0.3",
+      "uuid": "453cb12a-c593-4d66-89e6-bb8c32c9b87e",
+      "rawTextureUuid": "dca33195-3245-4490-b256-1b580290d35c",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 1,
+      "trimY": 1,
+      "width": 82,
+      "height": 82,
+      "rawWidth": 84,
+      "rawHeight": 84,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
