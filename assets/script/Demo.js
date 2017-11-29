@@ -1,4 +1,5 @@
-var ByteBuffer = require("bytebuffer.js");
+var ByteBuffer = require('bytebuffer');
+var Protobuf = require('protobufjs');
 
 cc.Class({
     extends: cc.Component,
@@ -9,16 +10,12 @@ cc.Class({
 
     // use this for initialization
     onLoad: function () {
-
-        var ByteBuffer = require("bytebuffer");
         var bb = new ByteBuffer()
             .writeIString("Hello world!")
             .flip();
-        console.log(bb.readIString()+" from bytebuffer.js");
+        console.log(bb.readIString() + " from bytebuffer.js");
 
-        var bb = new ByteBuffer().writeIString("Hello, World").flip();
-        console.log(bb.readIString()+" from bytebuffer.js");
-        
+
         var ws = new WebSocket("ws://14.225.2.111:1280/megajackpot");
 
         ws.onopen = function (event) {
@@ -42,6 +39,7 @@ cc.Class({
     },
 
     playgame: function() {
+
 
     },
     playgame2: function() {
